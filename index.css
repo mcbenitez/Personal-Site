@@ -1,0 +1,59 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: rgb(15,15,15);
+    text-align: left;
+    font-size: large;
+    color: rgb(255,255,255);
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color: white;
+  } 
+
+.toptab:hover {background-color: rgb(55,55,55);}
+.contact:hover {background-color: rgb(25,25,25);}
+
+.featureTitle{
+  position: absolute;
+  top:10%;
+  left: 65%;
+  background-color: rgb(35,35,35);
+  padding: .5%;
+}
+.topbar{
+  position: fixed;
+  background-color: gray;
+  height: 9%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.toptab{
+  float:left;
+  width: 20%;
+  height: 100%;
+  background: rgb(75,75,75);
+}
+.contact{
+  background-color: rgb(35,35,35);
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.textTitle{
+  position: absolute;
+  top: 9%;
+  padding: .5%;
+  background: rgb(35,35,35);
+  left: 14.5%;
+}
+.textBody{
+  position: absolute;
+  top: 19%;
+  width: 45%;
+  left: 3%;
+  text-align: right;
+}
